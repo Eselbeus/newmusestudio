@@ -1,16 +1,5 @@
-.App {
+.App, .Gallery, .Audio {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -28,11 +17,165 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.headers {
+  font-family: "arial-black",'Chunkfive', arial, helvetica, sans-serif;
+}
+
+.image-home {
+  width: 706px;
+  /* border: 20px, solid, #6F6F6F; */
+  vertical-align: center;
+}
+
+.image-backing {
+  width: 709px;
+  /* height: 482.5px; */
+  background: #6F6F6F;
+  margin: 0 auto;
+  justify-content: center;
+  /* padding: 6px 0; */
+  border-top: 4px solid #6F6F6F;
+  border-left: 4.5px solid #6F6F6F;
+  border-right: 4px solid #6F6F6F;
+  border-bottom: 2px solid #6F6F6F;
+  text-align: center;
+  /* border: 50px, solid, #6F6F6F; */
+}
+
+p {
+  font-family: helvetica;
+  color: #5E5E5E;
+  font-size: 16px;
+  letter-spacing: 0.107em;
+}
+
+h4 {
+  font-family: helvetica;
+  color: #1B1B1B;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.107em;
+}
+
+.home-description {
+  text-align: left;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  width: 40%;
+  line-height: 1.5rem;
+}
+
+.headers-smaller {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+@media (min-width: 963px) {
+  .headers-smaller:before,
+  .headers-smaller:after {
+     content: "";
+     flex: 1 1;
+     border-bottom: 1px solid #000;
+     margin-bottom: auto;
+     margin-top: auto;
+     margin-left: 10rem;
+     margin-right: 10rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 962px) {
+  .headers-smaller {
+    display: block;
   }
+}
+
+.bottom-image {
+  width: 100%;
+  /* height: 200px; */
+  object-fit: contain;
+}
+
+h2 {
+  font-family: "arial-black";
+  letter-spacing: 0.107em;
+}
+
+.nav-container {
+  background-color: rgb(111, 111, 111);
+  display: flex;
+  font-family: helvetica;
+  justify-content: center;
+}
+
+.desktop-nav {
+  padding: 24px;
+}
+
+.nav-elem {
+  text-decoration: none;
+  color: #DDDDDD;
+  display: inline;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.107em;
+}
+
+.podcast-links {
+  text-decoration: none;
+  text-decoration: underline;
+  color: #555555;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.audio-containers {
+  padding: 1rem;
+}
+
+.gallery-pics {
+  width: 300px;
+  padding: 1rem;
+}
+
+h3 {
+  font-family: helvetica;
+  color: #1B1B1B;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.107em;
+  padding: 1rem;
+}
+
+.popup {
+  width: 50%;
+  height: 35%;
+  background: #FFFFFF;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.x {
+  float: right;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 2rem;
+  padding: 5px;
+}
+
+.shading {
+  background: #111111CC;
+  width: 100%;
+  height: 1000%;
+  top: 0%;
+  position: absolute;
+  z-index: -1;
 }
