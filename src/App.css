@@ -224,6 +224,12 @@ h3 {
   font-weight: 400;
   letter-spacing: 0.107em;
   padding: 1rem;
+  clear: both;
+}
+
+.inner {
+  top: -10%;
+  position: relative;
 }
 
 .x {
