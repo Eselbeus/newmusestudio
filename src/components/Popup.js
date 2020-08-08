@@ -11,7 +11,7 @@ class Popup extends React.Component {
   render(){
     return (
       <div className="popup">
-        <p className="x" onClick={this.handleClickClose}>x</p>
+        <p className="x" onClick={this.handleClickClose}>&times;</p>
         <div className="inner">
         <h3>AUDIO DEMOS</h3>
         <p>Check out the audio demos of podcasts and music recorded!</p>

@@ -235,11 +235,13 @@ h3 {
 
 .x {
   /* float: right; */
-  padding: 12px;
+  padding: 6px;
   cursor: pointer;
   left: 48%;
-  top: -10%;
+  top: -12%;
   position: relative;
+  font-size: 24px;
+
 }
 
 .button {
