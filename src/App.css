@@ -220,7 +220,7 @@ h2 {
 h3 {
   font-family: helvetica;
   color: #1B1B1B;
-  font-size: 21px;
+  font-size: 23px;
   font-weight: 400;
   letter-spacing: 0.107em;
   padding: 1rem;
@@ -235,7 +235,7 @@ h3 {
 .button {
   border-radius: 2rem;
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .shading {
