@@ -61,6 +61,17 @@
   line-height: 1.5rem;
 }
 
+.popup {
+  width: 50%;
+  height: 35%;
+  background: #FFFFFF;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 @media (max-width: 414px) {
   .image-home {
     width: 100%;
@@ -82,6 +93,17 @@
     padding-right: 3rem;
     width: 80%;
     line-height: 1.5rem;
+  }
+
+  .popup {
+    width: 80%;
+    height: 35%;
+    background: #FFFFFF;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    border-radius: 5px;
+    text-align: center;
   }
 }
 
@@ -204,17 +226,6 @@ h3 {
   padding: 1rem;
 }
 
-.popup {
-  width: 50%;
-  height: 35%;
-  background: #FFFFFF;
-  position: absolute;
-  top: 40%;
-  left: 25%;
-  border-radius: 5px;
-  text-align: center;
-}
-
 .x {
   float: right;
   padding: 12px;
@@ -224,6 +235,7 @@ h3 {
 .button {
   border-radius: 2rem;
   padding: 5px;
+  font-size: 18px;
 }
 
 .shading {
