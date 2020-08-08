@@ -243,14 +243,22 @@ h3 {
 }
 
 .button {
+  border-color: black;
+  border-width: thin;
+  background: #FFFFFF;
   border-radius: 2rem;
-  padding: 5px;
-  font-size: 20px;
+  padding: 12px;
+  width: 30%;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
+  letter-spacing: 0.107em;
+  font-family: helvetica;
 }
 
 .button:hover {
-  background: #CCCCCC;
+  background: #AAAAAA;
+  color: #EEEEEE;
 }
 
 .shading {

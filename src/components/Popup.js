@@ -16,7 +16,7 @@ class Popup extends React.Component {
         <h3>AUDIO DEMOS</h3>
         <p>Check out the audio demos of podcasts and music recorded!</p>
         <br/>
-        <Link to="/audio"><button className='button' onClick={this.props.togglePopup}>Click here!</button></Link>
+        <Link to="/audio"><button className='button' onClick={this.props.togglePopup}>CLICK HERE!</button></Link>
         </div>
       </div>
     )
