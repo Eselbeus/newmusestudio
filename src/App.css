@@ -263,6 +263,12 @@ h3 {
   color: #EEEEEE;
 }
 
+@media (max-width: 414px) {
+  .button {
+    width: 60%;
+  }
+}
+
 .shading {
   background: #111111CC;
   width: 100%;
