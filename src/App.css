@@ -1,4 +1,4 @@
-.App, .Gallery, .Audio {
+.App, .Gallery, .Audio, .Contact {
   text-align: center;
 }
 
@@ -137,11 +137,45 @@
   }
 }
 
-p {
+p, label {
   font-family: helvetica;
   color: #5E5E5E;
   font-size: 16px;
   letter-spacing: 0.107em;
+}
+
+.contact-form {
+
+}
+
+.contact-item {
+  display: inline-block;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.submit {
+  border-radius: 2rem;
+  font-family: helvetica;
+  color: #5E5E5E;
+  font-size: 16px;
+  letter-spacing: 0.107em;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.contact-container {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact-side {
+  display: inline;
+  width: 50%;
+  text-align: left;
 }
 
 h4 {
