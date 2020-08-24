@@ -17,7 +17,6 @@ class Contact extends React.Component {
 
   submitHandler = (e) => {
     e.preventDefault()
-    console.log(e.target)
     let name = e.target.name.value
     let email = e.target.email.value
     let phone = e.target.phone.value

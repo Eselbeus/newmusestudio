@@ -105,6 +105,10 @@
     border-radius: 5px;
     text-align: center;
   }
+  .nav-elem {
+    padding: 10px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -117,8 +121,8 @@
     border-bottom: 0px solid #6F6F6F;
   }
   .nav-elem {
-    padding: 12px;
-    font-size: 14px;
+    padding: 8px;
+    font-size: 10px;
   }
 }
 
@@ -171,6 +175,15 @@ p, label {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+@media (max-width: 414px) {
+  .contact-container {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 
 .contact-side {
   display: inline;
@@ -232,6 +245,12 @@ h2 {
 
 .desktop-nav {
   padding: 24px;
+}
+
+@media (max-width: 414px) {
+  .desktop-nav {
+    padding: 14px;
+  }
 }
 
 .podcast-links {
