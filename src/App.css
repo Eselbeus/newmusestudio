@@ -266,8 +266,15 @@ h2 {
 }
 
 .gallery-pics {
-  width: 300px;
+  width: 600px;
   padding: 1rem;
+}
+
+@media (max-width: 620px) {
+  .gallery-pics {
+    width: 300px;
+    padding: 1rem;
+  }
 }
 
 h3 {
