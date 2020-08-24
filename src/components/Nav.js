@@ -22,6 +22,7 @@ class Nav extends React.Component {
           <NavLink className="nav-elem" to="/" onClick={this.navReset}>HOME</NavLink>
           <NavLink className="nav-elem" to="/gallery" onClick={this.navReset}>GALLERY</NavLink>
           <NavLink className="nav-elem" to="/audio" onClick={this.navReset}>AUDIO TRACKS</NavLink>
+          <NavLink className="nav-elem" to="/contact" onClick={this.navReset}>CONTACT</NavLink>
         </nav>
       </div>
       {this.state.seen ? <Popup togglePopup={this.togglePopup} /> : ''}
