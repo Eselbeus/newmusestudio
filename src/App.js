@@ -11,8 +11,8 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <h1 className="headers">New Muse Studio</h1>
-        <h3>Welcome to New Muse Studio</h3>
+        <h1 className="headers">New Muse Studios</h1>
+        <h3>Welcome to New Muse Studios</h3>
         <div className="image-backing">
           <img className="image-home" src={pic}/>
         </div>
@@ -30,7 +30,7 @@ class App extends React.Component {
           </p>
         </div>
         <img className="bottom-image" src={pic2}/>
-        <p>Copyright © 2020 New Muse Studio - All Rights Reserved.</p>
+        <p>Copyright © 2020 New Muse Studios - All Rights Reserved.</p>
 
       </div>
     );
