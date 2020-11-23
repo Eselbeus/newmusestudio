@@ -12,7 +12,6 @@ class Contact extends React.Component {
 
   changeHandler = (e) => {
     this.setState({[e.target.name]: e.target.value})
-    console.log(e.target.value)
   }
 
   submitHandler = (e) => {
