@@ -8,6 +8,9 @@ const Audio = () => {
       <h3>Welcome to New Muse Studio</h3>
       <h2 className='headers-smaller'>Podcasts</h2>
       <div className="audio-containers">
+      <a className="podcast-links" href="https://echomusings.com/">Echo Musings - All Episodes</a>
+      </div>
+      <div className="audio-containers">
       <a className="podcast-links" href="http://www.wnyc.org/story/246243-weird-al-paper/">Weird Al Interview on Soundcheck</a>
       </div>
       <div className="audio-containers">
