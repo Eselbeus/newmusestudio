@@ -261,6 +261,10 @@ h2 {
   font-weight: 700;
 }
 
+.important-podcast {
+  font-weight: 900;
+}
+
 .audio-containers {
   padding: 1rem;
 }

@@ -8,16 +8,16 @@ const Audio = () => {
       <h3>Welcome to New Muse Studio</h3>
       <h2 className='headers-smaller'>Podcasts</h2>
       <div className="audio-containers">
-      <a className="podcast-links" href="https://echomusings.com/">Echo Musings - All Episodes</a>
+      <a className="podcast-links important-podcast" href="https://echomusings.com/">Echo Musings - All Episodes - Host, Producer, and Creator</a>
       </div>
       <div className="audio-containers">
-      <a className="podcast-links" href="http://www.wnyc.org/story/246243-weird-al-paper/">Weird Al Interview on Soundcheck</a>
+      <a className="podcast-links" href="http://www.wnyc.org/story/246243-weird-al-paper/">Weird Al Interview</a>
       </div>
       <div className="audio-containers">
-      <a className="podcast-links" href="http://wnyc.org/story/244707-kirk-hammett">Kirk Hammett Interview on Soundcheck</a>
+      <a className="podcast-links" href="http://wnyc.org/story/244707-kirk-hammett">Kirk Hammett Interview</a>
       </div>
       <div className="audio-containers">
-      <a className="podcast-links" href="http://wnyc.org/story/210442-mynabirds-studio">The Mynabirds Live on Soundcheck</a>
+      <a className="podcast-links" href="http://wnyc.org/story/210442-mynabirds-studio">The Mynabirds Live</a>
       </div>
       <div className="audio-containers">
       <a className="podcast-links" href="https://www.newsounds.org/story/191219-willie-was-always-on-his-mind">Willie Was Always On His Mind</a>
