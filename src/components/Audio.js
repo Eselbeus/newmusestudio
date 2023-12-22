@@ -1,12 +1,21 @@
 import React from 'react'
 import '../App.css'
+import misfits from '../images/Misfits.mp4'
 
 const Audio = () => {
   return (
     <div className="Audio">
       <h1 className="headers">New Muse Studio</h1>
       <h3>Welcome to New Muse Studio</h3>
+      <h2 className='headers-smaller'>Multimedia</h2>
+      <div className="audio-containers media-item">Hotel Promo</div>
+      <video controls>
+        <source src={misfits} type="video/mp4"/>
+      </video>
       <h2 className='headers-smaller'>Podcasts</h2>
+      <div className="audio-containers">
+      <a className="podcast-links important-podcast" href="https://www.youtube.com/watch?v=qrDSHV692CM&list=PLSu3A-dD9H2ya7zXWIUD3oEHxzjbEhQt_&index=2">Life Lemons Podcast</a>
+      </div>
       <div className="audio-containers">
       <a className="podcast-links important-podcast" href="https://echomusings.com/">Echo Musings - All Episodes - Host, Producer, and Creator</a>
       </div>

@@ -261,6 +261,12 @@ h2 {
   font-weight: 700;
 }
 
+.media-item {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .important-podcast {
   font-weight: 900;
 }
