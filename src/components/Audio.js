@@ -15,7 +15,7 @@ const Audio = () => {
       <div className="audio-containers">
       <a className="podcast-links important-podcast" href="https://lutzwatch.com/category/podcast/">Lutzwatch Podcast</a>
       </div>
-      
+
       <h2 className='headers-smaller'>Multimedia</h2>
       <div className="audio-containers media-item">Hotel Promo</div>
       <video width="640" height="480" controls>
@@ -38,7 +38,9 @@ const Audio = () => {
       <video width="640" height="480" controls>
         <source src={game} type="video/mp4"/>
       </video>
-      <div>
+
+      <h2 className='headers-smaller'>Raising the Game Podcast - Longer Version</h2>
+      <div className="audio-containers">
       <a className="podcast-links important-podcast" href="https://youtu.be/ygAAxeDsdlc">Raising the Game Podcast - Longer Version</a>
       </div>
 
