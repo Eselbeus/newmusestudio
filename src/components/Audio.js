@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import misfits from '../images/Misfits.mp4'
 import puff from '../images/puffdaddy.mov'
+import maduro from '../images/maduro.mov'
 
 const Audio = () => {
   return (
@@ -9,14 +10,19 @@ const Audio = () => {
       <h1 className="headers">New Muse Studio</h1>
       <h3>Welcome to New Muse Studio</h3>
       <h2 className='headers-smaller'>Multimedia</h2>
-      <p className="audio-containers media-item">Hotel Promo</p>
+      <div className="audio-containers media-item">Hotel Promo</div>
       <video width="640" height="480" controls>
         <source src={misfits} type="video/mp4"/>
       </video>
-      <p className="audio-containers media-item">Sound Design of a Puff Daddy Segment for Fox</p>
+      <div className="audio-containers media-item">Sound Design of a Puff Daddy Segment for Fox</div>
       <video width="640" height="480" controls>
         <source src={puff} type="video/mp4"/>
       </video>
+      <div className="audio-containers media-item">Sound Design of a Maduro Segment for Fox</div>
+      <video width="640" height="480" controls>
+        <source src={maduro} type="video/mp4"/>
+      </video>
+
       <h2 className='headers-smaller'>Lutzwatch Figure Skating Podcast</h2>
       <div className="audio-containers">
       <a className="podcast-links important-podcast" href="https://lutzwatch.com/category/podcast/">Lutzwatch Podcast</a>
