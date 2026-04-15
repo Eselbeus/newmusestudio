@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import misfits from '../images/Misfits.mp4'
+import puff from '../images/puffdaddy.mov'
 
 const Audio = () => {
   return (
@@ -11,6 +12,10 @@ const Audio = () => {
       <div className="audio-containers media-item">Hotel Promo</div>
       <video width="640" height="480" controls>
         <source src={misfits} type="video/mp4"/>
+      </video>
+      <div className="audio-containers media-item">Sound Design of a Puff Daddy Segment for Fox</div>
+      <video width="640" height="480" controls>
+        <source src={puff} type="video/mp4"/>
       </video>
       <h2 className='headers-smaller'>Lutzwatch Figure Skating Podcast</h2>
       <div className="audio-containers">
