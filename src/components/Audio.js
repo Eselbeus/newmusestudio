@@ -11,6 +11,11 @@ const Audio = () => {
     <div className="Audio">
       <h1 className="headers">New Muse Studio</h1>
       <h3>Welcome to New Muse Studio</h3>
+      <h2 className='headers-smaller'>Lutzwatch Figure Skating Podcast</h2>
+      <div className="audio-containers">
+      <a className="podcast-links important-podcast" href="https://lutzwatch.com/category/podcast/">Lutzwatch Podcast</a>
+      </div>
+      
       <h2 className='headers-smaller'>Multimedia</h2>
       <div className="audio-containers media-item">Hotel Promo</div>
       <video width="640" height="480" controls>
@@ -28,11 +33,6 @@ const Audio = () => {
       <video width="640" height="480" controls>
         <source src={weather} type="video/mp4"/>
       </video>
-
-      <h2 className='headers-smaller'>Lutzwatch Figure Skating Podcast</h2>
-      <div className="audio-containers">
-      <a className="podcast-links important-podcast" href="https://lutzwatch.com/category/podcast/">Lutzwatch Podcast</a>
-      </div>
 
       <h2 className='headers-smaller'>Raising the Game Podcast</h2>
       <video width="640" height="480" controls>
