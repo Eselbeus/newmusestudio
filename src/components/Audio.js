@@ -38,6 +38,12 @@ const Audio = () => {
       <video width="640" height="480" controls>
         <source src={game} type="video/mp4"/>
       </video>
+      <a href="https://youtu.be/ygAAxeDsdlc">Raising the Game Podcast - Longer Version</a>
+
+      <h2 className='headers-smaller'>Audiobook with Sound Effects Clip</h2>
+      <div className="audio-containers">
+      <a className="podcast-links important-podcast" href="https://youtu.be/9SdLgytAp9E">Audiobook with Sound Effects Clip</a>
+      </div>
 
       <h2 className='headers-smaller'>Audio Tracks</h2>
       <iframe width="80%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1105128652&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
