@@ -3,6 +3,7 @@ import '../App.css'
 import misfits from '../images/Misfits.mp4'
 import puff from '../images/puffdaddy.mov'
 import maduro from '../images/maduro.mov'
+import weather from '../images/weather.mov'
 
 const Audio = () => {
   return (
@@ -21,6 +22,10 @@ const Audio = () => {
       <div className="audio-containers media-item">Sound Design of a Maduro Segment for Fox</div>
       <video width="640" height="480" controls>
         <source src={maduro} type="video/mp4"/>
+      </video>
+      <div className="audio-containers media-item">Sound Design of a Fox Weather Tailgate for Fox</div>
+      <video width="640" height="480" controls>
+        <source src={weather} type="video/mp4"/>
       </video>
 
       <h2 className='headers-smaller'>Lutzwatch Figure Skating Podcast</h2>
