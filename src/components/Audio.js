@@ -4,6 +4,7 @@ import misfits from '../images/Misfits.mp4'
 import puff from '../images/puffdaddy.mov'
 import maduro from '../images/maduro.mov'
 import weather from '../images/weather.mov'
+import game from '../images/game.mp4'
 
 const Audio = () => {
   return (
@@ -32,6 +33,11 @@ const Audio = () => {
       <div className="audio-containers">
       <a className="podcast-links important-podcast" href="https://lutzwatch.com/category/podcast/">Lutzwatch Podcast</a>
       </div>
+
+      <h2 className='headers-smaller'>Raising the Game Podcast</h2>
+      <video width="640" height="480" controls>
+        <source src={game} type="video/mp4"/>
+      </video>
 
       <h2 className='headers-smaller'>Audio Tracks</h2>
       <iframe width="80%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1105128652&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
