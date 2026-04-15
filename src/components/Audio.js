@@ -12,7 +12,7 @@ const Audio = () => {
       <video width="640" height="480" controls>
         <source src={misfits} type="video/mp4"/>
       </video>
-      <h2 className='headers-smaller'>Lutzwatch Podcast</h2>
+      <h2 className='headers-smaller'>Lutzwatch Figure Skating Podcast</h2>
       <div className="audio-containers">
       <a className="podcast-links important-podcast" href="https://lutzwatch.com/category/podcast/">Lutzwatch Podcast</a>
       </div>
