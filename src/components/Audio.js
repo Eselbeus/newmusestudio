@@ -9,11 +9,11 @@ const Audio = () => {
       <h1 className="headers">New Muse Studio</h1>
       <h3>Welcome to New Muse Studio</h3>
       <h2 className='headers-smaller'>Multimedia</h2>
-      <div className="audio-containers media-item">Hotel Promo</div>
+      <p className="audio-containers media-item">Hotel Promo</p>
       <video width="640" height="480" controls>
         <source src={misfits} type="video/mp4"/>
       </video>
-      <div className="audio-containers media-item">Sound Design of a Puff Daddy Segment for Fox</div>
+      <p className="audio-containers media-item">Sound Design of a Puff Daddy Segment for Fox</p>
       <video width="640" height="480" controls>
         <source src={puff} type="video/mp4"/>
       </video>
