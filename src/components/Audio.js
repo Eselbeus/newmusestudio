@@ -39,7 +39,7 @@ const Audio = () => {
         <source src={game} type="video/mp4"/>
       </video>
       <div>
-      <a href="https://youtu.be/ygAAxeDsdlc">Raising the Game Podcast - Longer Version</a>
+      <a className="podcast-links important-podcast" href="https://youtu.be/ygAAxeDsdlc">Raising the Game Podcast - Longer Version</a>
       </div>
 
       <h2 className='headers-smaller'>Audiobook with Sound Effects Clip</h2>
