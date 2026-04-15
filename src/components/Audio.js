@@ -38,7 +38,9 @@ const Audio = () => {
       <video width="640" height="480" controls>
         <source src={game} type="video/mp4"/>
       </video>
+      <div>
       <a href="https://youtu.be/ygAAxeDsdlc">Raising the Game Podcast - Longer Version</a>
+      </div>
 
       <h2 className='headers-smaller'>Audiobook with Sound Effects Clip</h2>
       <div className="audio-containers">
